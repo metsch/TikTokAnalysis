@@ -29,3 +29,8 @@ This notebook is used to create plots to show the affiliation for each hashtag.
 
 Contains graph projects created in gephi.
 
+## Social Network Graph
+
+A picture from the visualization of the TikTok network with users and hashtags.
+
+![represantation of the tiktok network](graph.PNG "Logo Title Text 1")
