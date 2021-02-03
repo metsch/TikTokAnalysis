@@ -4,22 +4,23 @@ The goal of this project is to gather insights from the social media platform Ti
 
 ## data/
 
-Data is gathered with the usage of [TikTokApi](https://github.com/davidteather/TikTok-Api). 
+Data is gathered with the usage of [TikTokApi](https://github.com/davidteather/TikTok-Api).
+
 In the data folder are three types of data
-    - Graphs
-    - Raw Data
-    - Processed Data
+- Graph Data
+- Raw Data
+- Processed Data
 
 ## src/
 
 ### src/preprocessing.ipynb
 
-The raw data from data/raw/... is transformed to a usable format and saved into data/processed/...
+The raw data from _data/raw/..._ is transformed to a usable format and saved into _data/processed/..._
 
 ### src/create_graph.ipynb
 
-First, an networkx MultiGraph is created with two node types: users and hashtags. Second, multiple edges are accumulated and merged to create edges with weight > 1.0.
-The resulting graph is undirected and saved as .gexf (gephi file) into data/graphs/...
+irst, an networkx MultiGraph is created with two node types: users and hashtags. Second, multiple edges are accumulated and merged to create edges with weight > 1.0.
+The resulting graph is undirected and saved as _.gexf_ (gephi file) into _data/graphs/..._
 
 ### src/data_visualizations.ipynb
 
@@ -33,4 +34,4 @@ Contains graph projects created in gephi.
 
 A picture from the visualization of the TikTok network with users and hashtags.
 
-![represantation of the tiktok network](graph.PNG "Logo Title Text 1")
+![represantation of the tiktok network](graph.PNG)
